@@ -14,9 +14,7 @@ const Login = ()=>{
         console.log('are we here');
         const result = await login({username: userName, password});
         console.log({result});
-        if(result){
-          window.location.href = './Atoms/index.js';
-      }
+        
     };
     return(
         <form onSubmit={handleLogin}>
