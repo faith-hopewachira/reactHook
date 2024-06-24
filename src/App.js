@@ -8,10 +8,12 @@ function App(){
   return(
     <div>
       <Login/>
-      <Users/>
-   
-    </div>
+      <Users/>    
+      </div>
+    
   )
+ 
+
 }
 
 export default App;
